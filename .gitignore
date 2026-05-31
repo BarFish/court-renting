@@ -1,0 +1,33 @@
+# ==========================================
+# Root Gitignore - OS & Editor Configurations
+# ==========================================
+
+# System Files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Common Editor & IDE Folders
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.project
+.classpath
+.settings/
+
+# Logs
+*.log
+
+# ==========================================
+# AI Assistants & LLM Tools
+# ==========================================
+# Claude Code configs (prevents leaking custom endpoints or API tokens)
+.claude/
+.claude.json
+claude.json
+settings.json

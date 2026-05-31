@@ -1,0 +1,28 @@
+# ==========================================
+# Backend Gitignore - Python / FastAPI
+# ==========================================
+
+# Python Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments (CRITICAL)
+venv/
+env/
+ENV/
+.venv/
+
+# Environment Variables & Secrets (CRITICAL)
+.env
+.env.dev
+.env.prod
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Database files (if backup dumps or local SQLites happen to be generated)
+*.sql
+*.sqlite3
